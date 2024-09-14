@@ -1,5 +1,5 @@
-name: 'My Custom Action'
-description: 'Say Hello'
+name: 'Add label to pull request'
+description: 'Add label to pull request'
 author: 'Evaristo Cuesta'
 
 inputs:
