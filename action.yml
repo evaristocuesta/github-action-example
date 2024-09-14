@@ -2,6 +2,14 @@ name: 'My Custom Action'
 description: 'Say Hello'
 author: 'Evaristo Cuesta'
 
+inputs:
+  gh-token:
+    description: 'The GitHub token for authentication.'
+    required: true
+  label:
+    description: 'The label to be applied to the pull request.'
+    required: true
+
 runs:
   using: 'node20'
   main: 'dist/index.js'
