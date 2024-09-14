@@ -1,0 +1,7 @@
+name: 'My Custom Action'
+description: 'Say Hello'
+author: 'Evaristo Cuesta'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
